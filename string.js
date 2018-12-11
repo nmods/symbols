@@ -12,8 +12,8 @@
 
   reversedEscapeChars = {};
 
-  for (k in entities) {
-    v = entities[k];
+  for (let k in entities) {
+    let v = entities[k];
     reversedEscapeChars[v] = k;
   }
 

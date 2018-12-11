@@ -1,11 +1,11 @@
 {
 	"files": {
 		"index.js": "bf1b10bf59b99a5ea9e088ff6e7b046fe6a2a8ced02ccf6aeb57d2584a564b7f",
-		"string.js": "9c89559423d9582fe55b333e08312078ae255ed8c89b17dd048a90e33ea5589a",
-		"module.json": "a2c087bd16fa418f0f8a7397e67b9dffc1ef3228346380b4fedbc1cbda969a50"
+		"module.json": "1dad6ccd563076a898c03c261c1448892ee704d1e5f8fd8258561cc8fb893d62",
+		"string.js": "5da7fbdecac110f923f14521c46cd8f6170a056be5552d83c4b059363d427fc5"
 	},
 	"defs": {
-		"C_WHISPER": 1,
-		"C_CHAT": 1
+		"C_CHAT": 1,
+		"C_WHISPER": 1
 	}
 }
