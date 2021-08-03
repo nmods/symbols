@@ -32,7 +32,7 @@ const S = require('./string'),
 		tel: ['℡'],
 		u: ['℧'],
 		v: ['℣'],
-		w: ['₩','ω'],
+		w: ['₩', 'ω'],
 		y: ['ℽ'],
 		z: ['₴', 'ℤ']
 	}
@@ -48,8 +48,8 @@ module.exports = function symbols(mod) {
 		}
 	})
 
-	mod.hook('C_WHISPER', 1, {order:100000, fake: null }, handleChat)
-	mod.hook('C_CHAT', 1, {order:100000, fake: null }, handleChat)
+	mod.hook('C_WHISPER', 2, { order: 100000, fake: null }, handleChat)
+	mod.hook('C_CHAT', 1, { order: 100000, fake: null }, handleChat)
 
 
 	function handleChat(event) {
@@ -99,6 +99,6 @@ module.exports = function symbols(mod) {
 	}
 
 	this.destructor = () => {
-		command.remove('symbols'); // since this doesn't need anything we can do reloading stuff
+		command.remove('symbols');
 	};
 }
